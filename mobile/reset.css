@@ -1,0 +1,75 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    background:transparent;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+	overflow-x: hidden;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+    line-height: 1.2;
+}
+
+dl, ol, ul, li {
+    list-style:none;
+}
+
+input, select, button, textarea {
+    border: none;
+    outline: 0;
+    font: inherit;
+}
+
+button { 
+    padding: 0; 
+    border: none 0; 
+    font: inherit; 
+    color: inherit; 
+    background-color: 
+    transparent; 
+    cursor: pointer; 
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+b, strong {
+    font-weight: bold;
+    max-width: 100%;
+}

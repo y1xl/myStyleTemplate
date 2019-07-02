@@ -1,0 +1,103 @@
+.full {
+	height: 100vh;
+	box-sizing: border-box;
+}
+.box-sizing {
+	box-sizing: border-box;
+}
+
+/* color */
+
+.fc-grey {
+	color: #979797;
+}
+
+/* background */
+
+.bgc {
+	background-color: #fff;
+}
+
+/* border */
+
+/* .border-radius {
+	border-radius: 10px;
+} */
+.border {
+	border: 1px solid #b7b7b7;
+}
+.border-b {
+	border-bottom: 1px solid #f0f0f0;
+}
+.border-t {
+	border-top: 1px solid #f0f0f0;
+}
+
+/* position */
+
+.position-r {
+	position: relative;
+}
+
+/* flexbox */
+
+.flexbox {
+	display: flex;
+}
+.flex-column {
+	flex-direction: column;
+}
+.flex-1 {
+	flex: 1
+}
+.flex-jc-between {
+	justify-content: space-between;
+}
+.flex-jc-around {
+	justify-content: space-around
+}
+.flex-jc-center {
+	justify-content: center;
+}
+.flex-al-center {
+	align-items: center;
+}
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+.flex-column-center {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.flex-column-jc-between {
+	flex-direction: column;
+	justify-content: space-between;
+}
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+/* text */
+
+.single-line {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.font-bold {
+	font-weight: bold;
+}
+.fs-12 {
+	font-size: 12px;
+}
+.fs-14 {
+	font-size: 14px;
+}
